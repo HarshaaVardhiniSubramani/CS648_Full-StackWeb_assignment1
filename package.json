@@ -1,0 +1,30 @@
+{
+  "name": "assignment1",
+  "version": "1.0.0",
+  "description": "assignment 1 of course CS648 Full-Stack Web Development",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w server server/server.js",
+    "watch": "babel src --presets @babel/react --out-dir public --watch --verbose",
+    "compile": "npx babel src --presets @babel/react --out-dir public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshaaVardhiniSubramani/CS648_Full-StackWeb_assignment1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarshaaVardhiniSubramani/CS648_Full-StackWeb_assignment1/issues"
+  },
+  "homepage": "https://github.com/HarshaaVardhiniSubramani/CS648_Full-StackWeb_assignment1#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
